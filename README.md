@@ -25,11 +25,8 @@ mkdir ansible-config-mgt-dynamic && cd ansible-config-mgt-dynamic
 # Create directory structure
 mkdir -p {dynamic-assignments,env-vars,inventory,playbooks,static-assignments}
 mkdir -p roles/{webserver,mysql,nginx,apache}/{tasks,defaults,handlers,templates,meta}
-```
 
-![Project Directory Structure]
-![](<project directory structure-Screenshot -1.png>)
-
+![Project Directory Structure](project%20directory%20structure-Screenshot%20-1.png)
 
 ### Step 2: Install and Configure MySQL Role
 
